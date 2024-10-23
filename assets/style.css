@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", system-ui;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.content img{
+    max-width: 100%;
+    padding: 50px, 0;
+}
+.content h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.feature{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    cursor: pointer;
+}
+.col-3 img:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding: 10px;
+   
+}
+.col-4 img{
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+
+}
+.col-4 img:hover{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.title{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 60px;
+    color: #555;
+
+}
+.col-4 .rating{
+    color: #ff523b;
+}
+.col-4 h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.offer{
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.offer h1{
+    color: #555;
+    font-weight: 600;
+}
+.offer .offer-img{
+    padding: 50px;
+}
+
+.testimonial{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.testimonial .card img{
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.testimonial .card{
+    margin: auto;
+    padding: 20px;
+}
+.testimonial .card:hover{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 100px;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.footer h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #555;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #555;
+    line-height: 22px;
+    padding: 10px;
+}
+.icons{
+    margin-bottom: 20px;
+    color: #555;
+    padding: 20px;
+}
+.brand{
+    margin: 100px auto;
+}
+
+
